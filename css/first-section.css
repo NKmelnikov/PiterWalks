@@ -1,35 +1,9 @@
-html,body{
-	margin:0;
-	padding: 0;
-}
-#page-counter{
-	font-family: Comfortaa;
-	position: fixed;
-	width: 300px;
-	height: 200px;
-	margin: auto;
-	top: 59%;
-	right: -75px;
-	z-index: 199;
-	color: #464646;
-}
-#page-counter div{
-	margin: 0 0 15px 0;
-	transform: rotate(90deg);
-	font-weight: 600;
-}
 #first-section{
 	position: relative;
-	width: 99vw;
+	width: 100%;
 	height:100vh;
 	overflow: hidden;
 	font-family: Comfortaa;
-}
-#second-section{
-	position: relative;
-	width: 99vw;
-	height:100vh;
-	overflow: hidden;
 }
 .diagonal-box-1 {
 	display:none;
@@ -113,7 +87,7 @@ nav.to-book:hover{
 }
 
 .peter-and-horse{
-	background-image: url('/img/peterAndHorse.png');
+	background-image: url('/img/peter_and_horse.png');
 	width:499px;
 	height: 439px;
 	position: absolute;
@@ -152,7 +126,7 @@ nav.to-book:hover{
 	color:#464646;
 }
 .down-scroll-arrow{
-	background-image: url('/img/down-scroll-arrow.png');
+	background-image: url('/img/down_scroll_arrow.png');
 	width:25px;
 	height:49px;
 	position: absolute;
