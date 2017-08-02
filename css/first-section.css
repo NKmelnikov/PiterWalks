@@ -1,0 +1,164 @@
+html,body{
+	margin:0;
+	padding: 0;
+}
+#page-counter{
+	font-family: Comfortaa;
+	position: fixed;
+	width: 300px;
+	height: 200px;
+	margin: auto;
+	top: 59%;
+	right: -75px;
+	z-index: 199;
+	color: #464646;
+}
+#page-counter div{
+	margin: 0 0 15px 0;
+	transform: rotate(90deg);
+	font-weight: 600;
+}
+#first-section{
+	position: relative;
+	width: 99vw;
+	height:100vh;
+	overflow: hidden;
+	font-family: Comfortaa;
+}
+#second-section{
+	position: relative;
+	width: 99vw;
+	height:100vh;
+	overflow: hidden;
+}
+.diagonal-box-1 {
+	display:none;
+	background-color: #fde574;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: -50%;
+	z-index: 10;
+	transform: skew(45deg);
+	-o-transform: skew(45deg);
+	-moz-transform: skew(45deg);
+	-webkit-transform: skew(45deg);
+}
+.diagonal-box-2 {
+	display:none;
+	background-color: #fd9a74;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0px;
+	right: -50%;
+	transform: skew(45deg);
+	-o-transform: skew(45deg);
+	-moz-transform: skew(45deg);
+	-webkit-transform: skew(45deg);
+}
+header{
+	padding: 30px;
+	display: flex;
+	position: relative;
+	z-index: 99;
+	justify-content: space-between;
+}
+.logo{
+	background-image: url('/img/logo.png');
+	width: 170px;
+	height: 111px;
+}
+.menu{
+	padding:20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav{
+	margin-right: 20px;
+	height:20px;
+	font-size: 14px;
+}
+nav,
+#page-counter,
+.down-scroll-arrow,
+.chose-language{
+	transition: all .2s ease-in-out;
+}
+nav:hover,
+#page-counter:hover,
+.down-scroll-arrow:hover,
+.chose-language:hover {
+	cursor: pointer;
+}
+nav:active,
+.down-scroll-arrow{
+	transform: scale(.9);
+}
+nav.contacts{
+	margin-right: 25px;
+}
+nav.to-book{
+	border: 3px solid #009991;
+	border-radius: 20px;
+	padding: 17px 40px 13px 40px;
+	margin-top: -18px;
+}
+nav.to-book:hover{
+	background-color: #009991;
+	color: #fff;
+
+}
+
+.peter-and-horse{
+	background-image: url('/img/peterAndHorse.png');
+	width:499px;
+	height: 439px;
+	position: absolute;
+	margin: auto;
+	top: -122px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: rotate(-1.5deg);
+	z-index: 199;
+}
+.walks-on-foot {
+	width: 350px;
+	height: 150px;
+	position: absolute;
+	margin: auto;
+	top: 45%;
+	left: 45px;
+	font-weight: 600;
+	font-size: 34px;
+	z-index: 199;
+	line-height: 66px;
+	color:#464646;
+}
+
+.chose-language{
+	width: 70px;
+	height: 40px;
+	position: absolute;
+	margin: auto;
+	top: 95%;
+	left: 45px;
+	font-weight: 600;
+	font-size: 13px;
+	z-index: 199;
+	color:#464646;
+}
+.down-scroll-arrow{
+	background-image: url('/img/down-scroll-arrow.png');
+	width:25px;
+	height:49px;
+	position: absolute;
+	margin: auto;
+	right: 0;
+	bottom: 5%;
+	left: 0;
+	z-index: 199;
+}
