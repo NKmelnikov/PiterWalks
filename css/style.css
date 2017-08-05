@@ -114,7 +114,6 @@ nav.to-book{
 nav.to-book:hover{
 	background-color: #009991;
 	color: #fff;
-
 }
 
 .peter-and-horse{
@@ -275,7 +274,7 @@ nav.to-book:hover{
 }
 .diagonal-box-3 {
 	display:none;
-	background-color: #fd9a74;
+	background-color: #fde574;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -289,7 +288,7 @@ nav.to-book:hover{
 }
 .diagonal-box-4 {
 	display:none;
-	background-color: #fde574;
+	background-color: #fd9a74;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -347,52 +346,284 @@ nav.to-book:hover{
 	top:50%;
 	z-index: 299;
 }
+/*------------------------------------*/
 .individual-single-black-triangle{
+
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 350px 350px 0 0px;
+	border-width: 350px 400px 0 0px;
 	border-color: #282828 transparent transparent transparent;
 }
+/*------------------------------------*/
+.price-number-first{
+	position:absolute;
+	top: 15px;
+	left: 40px;
+	font-size: 32px;
+	font-weight: 600;
+	color: #fd9a74;
+}
+.rus-rub-symbol-first{
+	position:absolute;
+	top: 48px;
+	left: 140px;
+}
+.indi-excursions-text-first{
+	position: absolute;
+	left: 40px;
+	top: 95px;
+	width: 100px;
+	color: white;
+	font-size: 12px;
+	text-align: left;
+}
+.number-of-people-first{
+	position: absolute;
+	left: 75px;
+	top: 197px;
+	color: white;
+	font-size: 20px;
+}
+.single-person-img-first{
+	position: absolute;
+	left: 40px;
+	top: 175px;
+}
+/*------------------------------------*/
 .individual-single-gray-triangle{
 	margin-top: -350px;
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0 0px 350px 350px;
+	border-width: 0 0px 350px 400px;
 	border-color: transparent transparent #464646 transparent;
 }
+/*------------------------------------*/
+.indi-clocks-first{
+	position: absolute;
+	left: 330px;
+	top: 175px;
+}
+.four-hours-first{
+	position: absolute;
+	left: 319px;
+	top: 222px;
+	color:white;
+	font-size: 12px;
+}
+div.to-book-first{
+	border: 3px solid #009991;
+	border-radius: 20px;
+	padding: 17px 40px 13px 40px;
+	position: absolute;
+	left: 134px;
+	top: 275px;
+	color:white;
+	transition: all .2s ease-in-out;
+}
+div.to-book-first:hover{
+	background-color: #009991;
+	cursor:pointer;
+}
+div.to-book-first:active{
+	transform: scale(.9);
+}
+
+/*------------------------------------*/
 .individual-group-black-triangle{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 350px 350px 0 0px;
+	border-width: 350px 400px 0 0px;
 	border-color: #282828 transparent transparent transparent;
-	opacity: .6;
+	opacity: .9;
 }
+/*------------------------------------*/
+.price-number-second{
+	position:absolute;
+	top: 15px;
+	left: 430px;
+	font-size: 32px;
+	font-weight: 600;
+	color: #fd9a74;
+}
+.rus-rub-symbol-second{
+	position:absolute;
+	top: 48px;
+	left: 530px;
+}
+.indi-excursions-text-second{
+	position: absolute;
+	left: 430px;
+	top: 95px;
+	width: 100px;
+	color: white;
+	font-size: 12px;
+	text-align: left;
+}
+.number-of-people-second{
+	position: absolute;
+	left: 465px;
+	top: 197px;
+	color: white;
+	font-size: 20px;
+}
+.single-person-img-second{
+	position: absolute;
+	left: 430px;
+	top: 175px;
+}
+.star-second{
+	position: absolute;
+	color: white;
+	left: 515px;
+	top: 40px;
+	font-size: 28px;
+}
+/*------------------------------------*/
 .individual-group-gray-triangle{
 	margin-top: -350px;
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0 0px 350px 350px;
+	border-width: 0 0px 350px 400px;
 	border-color: transparent transparent #464646 transparent;
-	opacity: .3;
+	opacity: .9;
 }
+/*------------------------------------*/
+.indi-clocks-second{
+	position: absolute;
+	left: 730px;
+	top: 175px;
+}
+.four-hours-second{
+	position: absolute;
+	left: 720px;
+	top: 222px;
+	color:white;
+	font-size: 12px;
+}
+div.to-book-second{
+	border: 3px solid #009991;
+	border-radius: 20px;
+	padding: 17px 40px 13px 40px;
+	position: absolute;
+	left: 534px;
+	top: 275px;
+	color:white;
+	transition: all .2s ease-in-out;
+}
+div.to-book-second:hover{
+	background-color: #009991;
+	cursor:pointer;
+}
+div.to-book-second:active{
+	transform: scale(.9);
+}
+.star-description-second{
+	color: white;
+	position:absolute;
+	left: 430px;
+	top: 300px;
+	font-size: 12px;
+}
+/*------------------------------------*/
 .compound-group-black-triangle{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 350px 350px 0 0px;
+	border-width: 350px 400px 0 0px;
 	border-color: #282828 transparent transparent transparent;
-	opacity: .6;
+	opacity: .8;
 }
+/*------------------------------------*/
+.price-number-third{
+	position:absolute;
+	top: 15px;
+	left: 830px;
+	font-size: 32px;
+	font-weight: 600;
+	color: #fd9a74;
+}
+.rus-rub-symbol-third{
+	position:absolute;
+	top: 48px;
+	left: 930px;
+}
+.indi-excursions-text-third{
+	position: absolute;
+	left: 830px;
+	top: 95px;
+	width: 100px;
+	color: white;
+	font-size: 12px;
+	text-align: left;
+}
+.number-of-people-third{
+	position: absolute;
+	left: 865px;
+	top: 197px;
+	color: white;
+	font-size: 20px;
+}
+.single-person-img-third{
+	position: absolute;
+	left: 830px;
+	top: 175px;
+}
+.star-third{
+	position: absolute;
+	color: white;
+	left: 907px;
+	top: 40px;
+	font-size: 28px;
+}
+/*------------------------------------*/
 .compound-group-gray-triangle{
 	margin-top: -350px;
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0 0px 350px 350px;
+	border-width: 0 0px 350px 400px;
 	border-color: transparent transparent #464646 transparent;
-	opacity: .3;
+	opacity: .8;
 }
+/*------------------------------------*/
+.indi-clocks-third{
+	position: absolute;
+	left: 1130px;
+	top: 175px;
+}
+.four-hours-third{
+	position: absolute;
+	left: 1120px;
+	top: 222px;
+	color:white;
+	font-size: 12px;
+}
+div.to-book-third{
+	border: 3px solid #009991;
+	border-radius: 20px;
+	padding: 17px 40px 13px 40px;
+	position: absolute;
+	left: 934px;
+	top: 275px;
+	color:white;
+	transition: all .2s ease-in-out;
+}
+div.to-book-third:hover{
+	background-color: #009991;
+	cursor:pointer;
+}
+div.to-book-third:active{
+	transform: scale(.9);
+}
+.star-description-third{
+	color: white;
+	position:absolute;
+	left: 830px;
+	top: 300px;
+	font-size: 12px;
+}
+/*------------------------------------*/
