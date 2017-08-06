@@ -627,3 +627,73 @@ div.to-book-third:active{
 	font-size: 12px;
 }
 /*------------------------------------*/
+#fifth-section{
+	position: relative;
+	width: 100%;
+	height:100vh;
+	overflow: hidden;
+	background-color:#464646;
+	font-family: Comfortaa;
+}
+.fifth-section-wrapper{
+	max-width: 800px;
+	max-height: 400px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+.phone-img{
+
+}
+.phone-us-text{
+	color: #fd9a74;
+	font-size:32px;
+
+}
+.social-container{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.social-container div{
+	position: relative;
+	opacity: .7;
+}
+.social-container div:hover{
+
+	opacity: 1;
+}
+.fb,.instagram{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0px 200px 250px 0;
+	border-color: transparent #fff200 transparent transparent;
+}
+.vk,.telegram{
+	margin-left:1px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0px 0 250px 200px;
+	border-color: transparent transparent transparent #fff200;
+}
+.fb-img,.instagram-img{
+	position: absolute;
+	top: 60px;
+	left: 125px;
+}
+.vk-img{
+	position: absolute;
+	top: 63px;
+	right: 110px;
+}
+.telegram-img{
+	position: absolute;
+	top: 58px;
+	right: 118px;
+}
