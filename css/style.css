@@ -42,7 +42,7 @@ html,body{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: 0px;
+	top: 0;
 	left: -50%;
 	z-index: 10;
 	transform: skew(45deg);
@@ -56,7 +56,7 @@ html,body{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	right: -50%;
 	transform: skew(45deg);
 	-o-transform: skew(45deg);
@@ -229,40 +229,39 @@ nav.to-book:hover{
 .up-part,.mid-part,.bot-part{
 	width:200px;
 	height:250px;
-	border:1px solid white;
 	opacity: .1;
 }
 .left-sided-up{
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 0px 250px 200px;
-	border-color: transparent transparent #fde574 transparent;
+	/*width: 0;*/
+	/*height: 0;*/
+	/*border-style: solid;*/
+	/*border-width: 0 0 250px 200px;*/
+	/*border-color: transparent transparent #fde574 transparent;*/
 }
 .right-sided-up{
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 0 200px 250px 0px;
-	border-color: transparent transparent #fde574 transparent;
+	/*width: 0;*/
+	/*height: 0;*/
+	/*border-style: solid;*/
+	/*border-width: 0 200px 250px 0;*/
+	/*border-color: transparent transparent #fde574 transparent;*/
 
 }
 .left-sided-down{
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 250px 0px 0 200px;
-	border-color: #fde574 transparent transparent transparent;
+	/*width: 0;*/
+	/*height: 0;*/
+	/*border-style: solid;*/
+	/*border-width: 250px 0 0 200px;*/
+	/*border-color: #fde574 transparent transparent transparent;*/
 }
 .right-sided-down{
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 250px 200px 0 0px;
-	border-color: #fde574 transparent transparent transparent;
+	/*width: 0;*/
+	/*height: 0;*/
+	/*border-style: solid;*/
+	/*border-width: 250px 200px 0 0;*/
+	/*border-color: #fde574 transparent transparent transparent;*/
 }
 .stick-to-mid{
-	margin: 0 -200px 0 0;
+	/*margin: 0 -200px 0 0;*/
 }
 .one-up{
 	position: absolute;
@@ -277,7 +276,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 200px;
-	top: 0px;
+	top: 0;
 }
 .three-up{
 	position: absolute;
@@ -285,7 +284,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 400px;
-	top: 0px;
+	top: 0;
 }
 .four-up{
 	position: absolute;
@@ -293,7 +292,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 600px;
-	top: 0px;
+	top: 0;
 }
 .five-up{
 	position: absolute;
@@ -301,7 +300,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 800px;
-	top: 0px;
+	top: 0;
 }
 .six-up{
 	position: absolute;
@@ -309,15 +308,26 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 1000px;
-	top: 0px;
+	top: 0;
 }
 .one-mid{
 	position: absolute;
 	background: url(/img/route/atlant.png);
 	width: 200px;
 	height: 250px;
-	left: 0px;
+	left: 0;
 	top: 0;
+}
+.one-mid:hover{
+	/*opacity: 1;*/
+}
+.one-mid-hover{
+	position: absolute;
+	background: url(/img/route/hover/hand-of-atlant.png);
+	left: 100px;
+	top: -49px;
+	width: 101px;
+	height: 48px;
 }
 .two-mid{
 	position: absolute;
@@ -325,7 +335,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 200px;
-	top: 0px;
+	top: 0;
 }
 .three-mid{
 	position: absolute;
@@ -333,7 +343,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 200px;
-	top: 0px;
+	top: 0;
 }
 .four-mid{
 	position: absolute;
@@ -341,7 +351,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 400px;
-	top: 0px;
+	top: 0;
 }
 .five-mid{
 	position: absolute;
@@ -365,7 +375,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 600px;
-	top: 0px;
+	top: 0;
 }
 .eight-mid{
 	position: absolute;
@@ -373,7 +383,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 800px;
-	top: 0px;
+	top: 0;
 }
 .nine-mid{
 	position: absolute;
@@ -381,7 +391,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 800px;
-	top: 0px;
+	top: 0;
 }
 .ten-mid{
 	position: absolute;
@@ -389,7 +399,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 1000px;
-	top: 0px;
+	top: 0;
 }
 .one-bot{
 	position: absolute;
@@ -397,7 +407,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 200px;
-	top: 0px;
+	top: 0;
 }
 .two-bot{
 	position: absolute;
@@ -405,7 +415,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 400px;
-	top: 0px;
+	top: 0;
 }
 .three-bot{
 	position: absolute;
@@ -413,7 +423,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 600px;
-	top: 0px;
+	top: 0;
 }
 .four-bot{
 	position: absolute;
@@ -421,7 +431,7 @@ nav.to-book:hover{
 	width: 200px;
 	height: 250px;
 	left: 800px;
-	top: 0px;
+	top: 0;
 }
 /*fourth section*/
 
@@ -438,7 +448,7 @@ nav.to-book:hover{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	top: 0px;
+	top: 0;
 	left: -50%;
 	z-index: 10;
 	transform: skew(45deg);
@@ -452,7 +462,7 @@ nav.to-book:hover{
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	bottom: 0px;
+	bottom: 0;
 	right: -50%;
 	transform: skew(45deg);
 	-o-transform: skew(45deg);
@@ -512,7 +522,7 @@ nav.to-book:hover{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 350px 400px 0 0px;
+	border-width: 350px 400px 0 0;
 	border-color: #282828 transparent transparent transparent;
 }
 /*------------------------------------*/
@@ -556,7 +566,7 @@ nav.to-book:hover{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0 0px 350px 400px;
+	border-width: 0 0 350px 400px;
 	border-color: transparent transparent #464646 transparent;
 }
 /*------------------------------------*/
@@ -595,7 +605,7 @@ div.to-book-first:active{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 350px 400px 0 0px;
+	border-width: 350px 400px 0 0;
 	border-color: #282828 transparent transparent transparent;
 	opacity: .9;
 }
@@ -647,7 +657,7 @@ div.to-book-first:active{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0 0px 350px 400px;
+	border-width: 0 0 350px 400px;
 	border-color: transparent transparent #464646 transparent;
 	opacity: .9;
 }
@@ -693,7 +703,7 @@ div.to-book-second:active{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 350px 400px 0 0px;
+	border-width: 350px 400px 0 0;
 	border-color: #282828 transparent transparent transparent;
 	opacity: .8;
 }
@@ -745,7 +755,7 @@ div.to-book-second:active{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0 0px 350px 400px;
+	border-width: 0 0 350px 400px;
 	border-color: transparent transparent #464646 transparent;
 	opacity: .8;
 }
@@ -830,7 +840,7 @@ div.to-book-third:active{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0px 200px 250px 0;
+	border-width: 0 200px 250px 0;
 	border-color: transparent #fff200 transparent transparent;
 }
 .vk,.telegram{
@@ -838,7 +848,7 @@ div.to-book-third:active{
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 0px 0 250px 200px;
+	border-width: 0 0 250px 200px;
 	border-color: transparent transparent transparent #fff200;
 }
 .fb-img,.instagram-img{

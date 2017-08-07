@@ -6,13 +6,10 @@ $('.diagonal-box-1,.diagonal-box-2,.diagonal-box-3,.diagonal-box-4').css('transf
 
 //---------------------------------
 
-$('#second-section').bind('inview', function (event, visible) {
-	console.log(1);
-	if (visible == true) {
-		console.log(2);
-
-		$('#page-counter').addClass('orange');
-	} else {
-		// element has gone out of viewport
-	}
+$('.up-part,.mid-part,.bot-part').each(function () {
+	$(this).on("mouseenter", function() {
+		$(this).css('opacity','1');
+	}).on('mouseleave', function() {
+		$(this).css('opacity','.1');
+	});
 });
