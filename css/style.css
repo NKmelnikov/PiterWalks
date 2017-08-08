@@ -229,7 +229,7 @@ nav.to-book:hover{
 .up-part,.mid-part,.bot-part{
 	width:200px;
 	height:250px;
-	/*opacity: .1;*/
+
 }
 .mid-part{
 
@@ -241,6 +241,8 @@ nav.to-book:hover{
 	top: 0;
 	width: 200px;
 	height: 250px;
+	overflow: hidden;
+	opacity: .1;
 }
 
 .one-up{
@@ -250,12 +252,10 @@ nav.to-book:hover{
 .two-up{
 	background: url(/img/route/hermitage.png);
 	left: 200px;
-
 }
 .three-up{
 	background: url(/img/route/pushkin.png);
 	left: 400px;
-
 }
 .four-up{
 	background: url(/img/route/rus-museum.png);
@@ -278,8 +278,6 @@ nav.to-book:hover{
 .two-mid{
 	left: -100px;
 	transform: skew(141deg);
-	z-index: 5000;
-	position: relative;
 }
 .two-mid:after{
 	content: "";
@@ -290,12 +288,8 @@ nav.to-book:hover{
 	height: 100%;
 	z-index:-1;
 }
-.two-mid:hover{
-	opacity: .1;
-}
+
 .three-mid{
-	position: relative;
-	z-index: 5000;
 	left: 100px;
 	transform: skew(141deg);
 }
@@ -307,39 +301,92 @@ nav.to-book:hover{
 	left:-100px;
 	width: 100%;
 	height: 100%;
-	z-index:-5;
-}
-.three-mid:hover{
-	opacity: .1;
+	z-index:-1;
 }
 .four-mid{
+	left:-100px;
+	transform: skew(39deg);
+}
+.four-mid:after{
+	content: "";
+	transform: skew(-39deg);
 	background: url(/img/route/krylov.png);
-	left: 400px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .five-mid{
+	left:100px;
+	transform: skew(39deg);
+}
+.five-mid:after{
+	content: "";
+	transform: skew(-39deg);
 	background: url(/img/route/michaels-horse.png);
-	left: 400px;
+	position: absolute;
+	left:-100px;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .six-mid{
+	left:-100px;
+	transform: skew(141deg);
+}
+.six-mid:after{
+	content: "";
+	transform: skew(-141deg);
 	background: url(/img/route/eliseevs-house.png);
-	left: 600px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .seven-mid{
+	left:100px;
+	transform: skew(141deg);
+}
+.seven-mid:after{
+	content: "";
+	transform: skew(-141deg);
 	background: url(/img/route/kathrine.png);
-	left: 600px;
+	position: absolute;
+	left:-100px;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .eight-mid{
+	left:-100px;
+	transform: skew(39deg);
+}
+.eight-mid:after{
+	content: "";
+	transform: skew(-39deg);
 	background: url(/img/route/kazansky.png);
-	left: 800px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .nine-mid{
+	left:100px;
+	transform: skew(39deg);
+}
+.nine-mid:after{
+	content: "";
+	transform: skew(-39deg);
 	background: url(/img/route/alex-the-II.png);
-	left: 800px;
+	position: absolute;
+	left:-100px;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .ten-mid{
 	background: url(/img/route/piter-the-woodwoker.png);
-	left: 1000px;
-	opacity: .1;
+	left: 0;
 }
 
 

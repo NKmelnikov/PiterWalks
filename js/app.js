@@ -6,13 +6,13 @@ $('.diagonal-box-1,.diagonal-box-2,.diagonal-box-3,.diagonal-box-4').css('transf
 
 //---------------------------------
 
-// $('.up-part,.mid-part,.bot-part').each(function () {
-// 	$(this).on("mouseenter", function() {
-// 		$(this).css('opacity','1');
-// 	}).on('mouseleave', function() {
-// 		$(this).css('opacity','.1');
-// 	});
-// });
+$('.up-part div,.mid-part div,.bot-part div').each(function () {
+	$(this).on("mouseenter", function() {
+		$(this).css('opacity','1');
+	}).on('mouseleave', function() {
+		$(this).css('opacity','.1');
+	});
+});
 $('.two-mid').click(function () {
 	console.log(2);
 });
