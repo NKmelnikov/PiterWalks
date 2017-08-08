@@ -13,9 +13,7 @@ $('.up-part div,.mid-part div,.bot-part div').each(function () {
 		$(this).css('opacity','.1');
 	});
 });
-$('.two-mid').click(function () {
-	console.log(2);
-});
-$('.three-mid').click(function () {
-	console.log(3);
+$('.triangle').click(function () {
+	console.log(this.id);
+	$('#third-section-img-pop-up').show();
 });
