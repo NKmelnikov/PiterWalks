@@ -229,209 +229,182 @@ nav.to-book:hover{
 .up-part,.mid-part,.bot-part{
 	width:200px;
 	height:250px;
-	opacity: .1;
-}
-.left-sided-up{
-	/*width: 0;*/
-	/*height: 0;*/
-	/*border-style: solid;*/
-	/*border-width: 0 0 250px 200px;*/
-	/*border-color: transparent transparent #fde574 transparent;*/
-}
-.right-sided-up{
-	/*width: 0;*/
-	/*height: 0;*/
-	/*border-style: solid;*/
-	/*border-width: 0 200px 250px 0;*/
-	/*border-color: transparent transparent #fde574 transparent;*/
 
 }
-.left-sided-down{
-	/*width: 0;*/
-	/*height: 0;*/
-	/*border-style: solid;*/
-	/*border-width: 250px 0 0 200px;*/
-	/*border-color: #fde574 transparent transparent transparent;*/
+.mid-part{
+
+	overflow: hidden;
+	position: relative;
 }
-.right-sided-down{
-	/*width: 0;*/
-	/*height: 0;*/
-	/*border-style: solid;*/
-	/*border-width: 250px 200px 0 0;*/
-	/*border-color: #fde574 transparent transparent transparent;*/
-}
-.stick-to-mid{
-	/*margin: 0 -200px 0 0;*/
-}
-.one-up{
+.up-part div,.mid-part div,.bot-part div{
 	position: absolute;
-	background: url(/img/route/angel.png);
+	top: 0;
 	width: 200px;
 	height: 250px;
+	overflow: hidden;
+	opacity: .1;
+}
+
+.one-up{
+	background: url(/img/route/angel.png);
 	left: 0;
 }
 .two-up{
-	position: absolute;
 	background: url(/img/route/hermitage.png);
-	width: 200px;
-	height: 250px;
 	left: 200px;
-	top: 0;
 }
 .three-up{
-	position: absolute;
 	background: url(/img/route/pushkin.png);
-	width: 200px;
-	height: 250px;
 	left: 400px;
-	top: 0;
 }
 .four-up{
-	position: absolute;
 	background: url(/img/route/rus-museum.png);
-	width: 200px;
-	height: 250px;
 	left: 600px;
-	top: 0;
 }
 .five-up{
-	position: absolute;
 	background: url(/img/route/bronze-horseman.png);
-	width: 200px;
-	height: 250px;
 	left: 800px;
-	top: 0;
 }
 .six-up{
-	position: absolute;
 	background: url(/img/route/camel.png);
-	width: 200px;
-	height: 250px;
 	left: 1000px;
-	top: 0;
 }
+
+
 .one-mid{
-	position: absolute;
 	background: url(/img/route/atlant.png);
-	width: 200px;
-	height: 250px;
 	left: 0;
-	top: 0;
-}
-.one-mid:hover{
-	/*opacity: 1;*/
-}
-.one-mid-hover{
-	position: absolute;
-	background: url(/img/route/hover/hand-of-atlant.png);
-	left: 100px;
-	top: -49px;
-	width: 101px;
-	height: 48px;
 }
 .two-mid{
-	position: absolute;
-	background: url(/img/route/anichkov-bridge.png);
-	width: 200px;
-	height: 250px;
-	left: 200px;
-	top: 0;
+	left: -100px;
+	transform: skew(141deg);
 }
-.three-mid{
+.two-mid:after{
+	content: "";
+	transform: skewX(-141deg);
+	background: url(/img/route/anichkov-bridge.png);
 	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
+}
+
+.three-mid{
+	left: 100px;
+	transform: skew(141deg);
+}
+.three-mid:after{
+	content: "";
+	transform: skewX(-141deg);
 	background: url(/img/route/zingers-house.png);
-	width: 200px;
-	height: 250px;
-	left: 200px;
-	top: 0;
+	position: absolute;
+	left:-100px;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .four-mid{
-	position: absolute;
+	left:-100px;
+	transform: skew(39deg);
+}
+.four-mid:after{
+	content: "";
+	transform: skew(-39deg);
 	background: url(/img/route/krylov.png);
-	width: 200px;
-	height: 250px;
-	left: 400px;
-	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .five-mid{
-	position: absolute;
+	left:100px;
+	transform: skew(39deg);
+}
+.five-mid:after{
+	content: "";
+	transform: skew(-39deg);
 	background: url(/img/route/michaels-horse.png);
-	width: 200px;
-	height: 250px;
-	left: 400px;
-	top: 0;
+	position: absolute;
+	left:-100px;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .six-mid{
-	position: absolute;
+	left:-100px;
+	transform: skew(141deg);
+}
+.six-mid:after{
+	content: "";
+	transform: skew(-141deg);
 	background: url(/img/route/eliseevs-house.png);
-	width: 200px;
-	height: 250px;
-	left: 600px;
-	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .seven-mid{
-	position: absolute;
+	left:100px;
+	transform: skew(141deg);
+}
+.seven-mid:after{
+	content: "";
+	transform: skew(-141deg);
 	background: url(/img/route/kathrine.png);
-	width: 200px;
-	height: 250px;
-	left: 600px;
-	top: 0;
+	position: absolute;
+	left:-100px;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .eight-mid{
-	position: absolute;
+	left:-100px;
+	transform: skew(39deg);
+}
+.eight-mid:after{
+	content: "";
+	transform: skew(-39deg);
 	background: url(/img/route/kazansky.png);
-	width: 200px;
-	height: 250px;
-	left: 800px;
-	top: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .nine-mid{
-	position: absolute;
+	left:100px;
+	transform: skew(39deg);
+}
+.nine-mid:after{
+	content: "";
+	transform: skew(-39deg);
 	background: url(/img/route/alex-the-II.png);
-	width: 200px;
-	height: 250px;
-	left: 800px;
-	top: 0;
+	position: absolute;
+	left:-100px;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
 }
 .ten-mid{
-	position: absolute;
 	background: url(/img/route/piter-the-woodwoker.png);
-	width: 200px;
-	height: 250px;
-	left: 1000px;
-	top: 0;
+	left: 0;
 }
+
+
 .one-bot{
-	position: absolute;
 	background: url(/img/route/spas-on-blood.png);
-	width: 200px;
-	height: 250px;
 	left: 200px;
-	top: 0;
 }
 .two-bot{
-	position: absolute;
 	background: url(/img/route/suvorov.png);
-	width: 200px;
-	height: 250px;
 	left: 400px;
-	top: 0;
 }
 .three-bot{
-	position: absolute;
 	background: url(/img/route/theatre.png);
-	width: 200px;
-	height: 250px;
 	left: 600px;
-	top: 0;
 }
 .four-bot{
-	position: absolute;
 	background: url(/img/route/lomonosov.png);
-	width: 200px;
-	height: 250px;
 	left: 800px;
-	top: 0;
 }
 /*fourth section*/
 
