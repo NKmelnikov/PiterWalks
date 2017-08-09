@@ -265,6 +265,7 @@ nav.to-book:hover{
 	background: url(/img/route/hermitage.png);
 	left: 200px;
 }
+
 .three-up{
 	background: url(/img/route/pushkin.png);
 	left: 400px;
@@ -286,6 +287,11 @@ nav.to-book:hover{
 .one-mid{
 	background: url(/img/route/atlant.png);
 	left: 0;
+}
+.atlants-hand{
+	height:49px!important;
+	width:100px!important;
+	background: url(/img/route/hover/hand-of-atlant.png) no-repeat;
 }
 .two-mid{
 	left: -100px;
