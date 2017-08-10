@@ -261,25 +261,48 @@ nav.to-book:hover{
 	background: url(/img/route/angel.png);
 	left: 0;
 }
+.one-up:hover{
+	background: url(/img/route/hover/angel.png);
+	left: 0;
+}
 .two-up{
 	background: url(/img/route/hermitage.png);
 	left: 200px;
 }
-
+.two-up:hover{
+	background: url(/img/route/hover/hermitage.png);
+	left: 200px;
+}
 .three-up{
 	background: url(/img/route/pushkin.png);
+	left: 400px;
+}
+.three-up:hover{
+	background: url(/img/route/hover/pushkin.png);
 	left: 400px;
 }
 .four-up{
 	background: url(/img/route/rus-museum.png);
 	left: 600px;
 }
+.four-up:hover{
+	background: url(/img/route/hover/rus-museum.png);
+	left: 600px;
+}
 .five-up{
 	background: url(/img/route/bronze-horseman.png);
 	left: 800px;
 }
+.five-up:hover{
+	background: url(/img/route/hover/bronze-horseman.png);
+	left: 800px;
+}
 .six-up{
 	background: url(/img/route/camel.png);
+	left: 1000px;
+}
+.six-up:hover{
+	background: url(/img/route/hover/camel.png);
 	left: 1000px;
 }
 
@@ -288,10 +311,13 @@ nav.to-book:hover{
 	background: url(/img/route/atlant.png);
 	left: 0;
 }
-.atlants-hand{
-	height:49px!important;
-	width:100px!important;
-	background: url(/img/route/hover/hand-of-atlant.png) no-repeat;
+.one-mid:hover{
+	background: url(/img/route/hover/atlant.png);
+	left: 0;
+	top:-41px;
+	width:200px!important;
+	height:282px!important;
+
 }
 .two-mid{
 	left: -100px;
@@ -306,7 +332,13 @@ nav.to-book:hover{
 	height: 100%;
 	z-index:-1;
 }
-
+.two-mid:hover:after{
+	/*left:-5px;*/
+	top:-20px;
+	background: url(/img/route/hover/anichkov-bridge.png);
+	width:205px!important;
+	height:254px!important;
+}
 .three-mid{
 	left: 100px;
 	transform: skew(141deg);
@@ -361,6 +393,15 @@ nav.to-book:hover{
 	height: 100%;
 	z-index:-1;
 }
+.six-mid:hover:after{
+	content: "";
+	transform: skew(-141deg);
+	background: url(/img/route/hover/eliseevs-house.png);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index:-1;
+}
 .seven-mid{
 	left:100px;
 	transform: skew(141deg);
@@ -407,22 +448,46 @@ nav.to-book:hover{
 	left: 0;
 }
 
-
 .one-bot{
 	background: url(/img/route/spas-on-blood.png);
 	left: 200px;
+}
+.one-bot:hover{
+	background: url(/img/route/hover/spas-on-blood.png);
+	left: 200px;
+	top:-127px;
+	width:200px!important;
+	height:371px!important;
 }
 .two-bot{
 	background: url(/img/route/suvorov.png);
 	left: 400px;
 }
+.two-bot:hover{
+	background: url(/img/route/hover/suvorov.png);
+	left: 400px;
+	top:-29px;
+	width:200px!important;
+	height:271px!important;
+}
 .three-bot{
 	background: url(/img/route/theatre.png);
+	left: 600px;
+}
+.three-bot:hover{
+	background: url(/img/route/hover/theatre.png);
 	left: 600px;
 }
 .four-bot{
 	background: url(/img/route/lomonosov.png);
 	left: 800px;
+}
+.four-bot:hover{
+	background: url(/img/route/hover/lomonosov.png);
+	left: 800px;
+	top:-9px;
+	width:200px!important;
+	height:254px!important;
 }
 /*fourth section*/
 
