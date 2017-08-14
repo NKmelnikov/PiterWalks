@@ -245,7 +245,7 @@ nav.to-book:hover{
 }
 .mid-part{
 
-	overflow: hidden;
+
 	position: relative;
 }
 .up-part div,.mid-part div,.bot-part div{
@@ -306,12 +306,21 @@ nav.to-book:hover{
 	left: 1000px;
 }
 
-
+/*.mid-part{*/
+	/*border:1px solid white;*/
+/*}*/
+/*.triangle:hover{*/
+	/*border:1px solid white;*/
+/*}*/
+/*.triangle:hover:after{*/
+	/*border:1px solid red;*/
+/*}*/
 .one-mid{
 	background: url(/img/route/atlant.png);
 	left: 0;
 }
 .one-mid:hover{
+	position: absolute;
 	background: url(/img/route/hover/atlant.png);
 	left: 0;
 	top:-41px;
@@ -333,8 +342,10 @@ nav.to-book:hover{
 	z-index:-1;
 }
 .two-mid:hover:after{
-	/*left:-5px;*/
-	top:-20px;
+	position: absolute;
+	transform: skewX(-141deg);
+	left:83px;
+	top:-15px;
 	background: url(/img/route/hover/anichkov-bridge.png);
 	width:205px!important;
 	height:254px!important;
@@ -353,6 +364,11 @@ nav.to-book:hover{
 	height: 100%;
 	z-index:-1;
 }
+.three-mid:hover:after{
+	position: absolute;
+	transform: skewX(-141deg);
+	background: url(/img/route/hover/zingers-house.png);
+}
 .four-mid{
 	left:-100px;
 	transform: skew(39deg);
@@ -366,6 +382,11 @@ nav.to-book:hover{
 	height: 100%;
 	z-index:-1;
 }
+.four-mid:hover:after{
+	position: absolute;
+	transform: skewX(-39deg);
+	background: url(/img/route/hover/krylov.png);
+}
 .five-mid{
 	left:100px;
 	transform: skew(39deg);
@@ -378,6 +399,17 @@ nav.to-book:hover{
 	left:-100px;
 	width: 100%;
 	height: 100%;
+	z-index:-1;
+}
+.five-mid:hover:after{
+	content: "";
+	transform: skew(-39deg);
+	background: url(/img/route/hover/michaels-horse.png);
+	position: absolute;
+	left:-85px;
+	top:-31px;
+	width: 100%;
+	height: 274px!important;
 	z-index:-1;
 }
 .six-mid{
@@ -416,6 +448,12 @@ nav.to-book:hover{
 	height: 100%;
 	z-index:-1;
 }
+.seven-mid:hover:after{
+	position: absolute;
+	transform: skewX(-141deg);
+	left:-100px;
+	background: url(/img/route/hover/kathrine.png);
+}
 .eight-mid{
 	left:-100px;
 	transform: skew(39deg);
@@ -428,6 +466,12 @@ nav.to-book:hover{
 	width: 100%;
 	height: 100%;
 	z-index:-1;
+}
+.eight-mid:hover:after{
+	content: "";
+	transform: skew(-39deg);
+	background: url(/img/route/hover/kazansky.png);
+	position: absolute;
 }
 .nine-mid{
 	left:100px;
@@ -443,11 +487,25 @@ nav.to-book:hover{
 	height: 100%;
 	z-index:-1;
 }
+.nine-mid:hover:after{
+	transform: skew(-39deg);
+	background: url(/img/route/hover/alex-the-II.png);
+	position: absolute;
+	left:-85px;
+	top:-30px;
+	width: 100%;
+	height: 270px!important;
+	z-index:-1;
+}
 .ten-mid{
 	background: url(/img/route/piter-the-woodwoker.png);
 	left: 0;
 }
-
+.ten-mid:hover{
+	position: absolute;
+	background: url(/img/route/hover/piter-the-woodwoker.png);
+	left: 0;
+}
 .one-bot{
 	background: url(/img/route/spas-on-blood.png);
 	left: 200px;
