@@ -246,6 +246,7 @@ nav.to-book:hover{
 .mid-part{
 
 
+	overflow: visible;
 	position: relative;
 }
 .up-part div,.mid-part div,.bot-part div{
@@ -253,7 +254,6 @@ nav.to-book:hover{
 	top: 0;
 	width: 200px;
 	height: 250px;
-	overflow: hidden;
 	opacity: .1;
 }
 
@@ -306,15 +306,10 @@ nav.to-book:hover{
 	left: 1000px;
 }
 
-/*.mid-part{*/
-	/*border:1px solid white;*/
-/*}*/
-/*.triangle:hover{*/
-	/*border:1px solid white;*/
-/*}*/
-/*.triangle:hover:after{*/
-	/*border:1px solid red;*/
-/*}*/
+.canvas{
+	border:1px solid white;
+}
+
 .one-mid{
 	background: url(/img/route/atlant.png);
 	left: 0;
@@ -381,6 +376,7 @@ nav.to-book:hover{
 	width: 100%;
 	height: 100%;
 	z-index:-1;
+
 }
 .four-mid:hover:after{
 	position: absolute;
