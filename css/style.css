@@ -328,47 +328,57 @@ nav.to-book:hover{
 	height:282px!important;
 
 }
-.two-mid{
-	left: -100px;
-	transform: skew(141deg);
+.two-mid:hover{
+	fill:url("#img-two-hover-mid");
+	overflow: visible!important;
 }
-.two-mid:after{
-	content: "";
-	transform: skewX(-141deg);
-	background: url(/img/route/anichkov-bridge.png);
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	z-index:-1;
-}
-.two-mid:hover:after{
-	position: absolute;
-	transform: skewX(-141deg);
-	left:83px;
-	top:-15px;
-	background: url(/img/route/hover/anichkov-bridge.png);
-	width:205px!important;
-	height:254px!important;
-}
-.three-mid{
-	left: 100px;
-	transform: skew(141deg);
-}
-.three-mid:after{
-	content: "";
-	transform: skewX(-141deg);
-	background: url(/img/route/zingers-house.png);
-	position: absolute;
-	left:-100px;
-	width: 100%;
-	height: 100%;
-	z-index:-1;
-}
-.three-mid:hover:after{
-	position: absolute;
-	transform: skewX(-141deg);
-	background: url(/img/route/hover/zingers-house.png);
-}
+/*.two-mid{*/
+	/*fill: url(/img/route/anichkov-bridge.png);*/
+/*}*/
+/*.three-mid{*/
+	/*fill: url(/img/route/zingers-house.png);*/
+/*}*/
+/*.two-mid{*/
+	/*left: -100px;*/
+	/*transform: skew(141deg);*/
+/*}*/
+/*.two-mid:after{*/
+	/*content: "";*/
+	/*transform: skewX(-141deg);*/
+	/*background: url(/img/route/anichkov-bridge.png);*/
+	/*position: absolute;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*z-index:-1;*/
+/*}*/
+/*.two-mid:hover:after{*/
+	/*position: absolute;*/
+	/*transform: skewX(-141deg);*/
+	/*left:83px;*/
+	/*top:-15px;*/
+	/*background: url(/img/route/hover/anichkov-bridge.png);*/
+	/*width:205px!important;*/
+	/*height:254px!important;*/
+/*}*/
+/*.three-mid{*/
+	/*left: 100px;*/
+	/*transform: skew(141deg);*/
+/*}*/
+/*.three-mid:after{*/
+	/*content: "";*/
+	/*transform: skewX(-141deg);*/
+	/*background: url(/img/route/zingers-house.png);*/
+	/*position: absolute;*/
+	/*left:-100px;*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*z-index:-1;*/
+/*}*/
+/*.three-mid:hover:after{*/
+	/*position: absolute;*/
+	/*transform: skewX(-141deg);*/
+	/*background: url(/img/route/hover/zingers-house.png);*/
+/*}*/
 .four-mid{
 	left:-100px;
 	transform: skew(39deg);
