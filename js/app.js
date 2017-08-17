@@ -105,21 +105,36 @@ ctx.stroke();
 
 var img1 = new Image();
 img1.onload = function () {
-	ctx.drawImage(this, 0, 10, img1.width, img1.height);
+	ctx.drawImage(this, 0, 50, img1.width, img1.height);
 };
-img1.src = "/img/route/hover/atlant.png";
+img1.src = "/img/route/atlant.png";
+
+var img1Hover = new Image();
+img1Hover.src = "/img/route/hover/atlant.png";
+//----------------------------------------------
 
 var img2 = new Image();
 img2.onload = function () {
-	ctx.drawImage(this, 195, 35, img2.width, img2.height);
+	ctx.drawImage(this, 200, 50, img2.width, img2.height);
 };
-img2.src = "/img/route/hover/anichkov-bridge.png";
+img2.src = "/img/route/anichkov-bridge.png";
+
+var img2Hover = new Image();
+img2Hover.src = "/img/route/hover/anichkov-bridge.png";
+
+//----------------------------------------------
 
 var img3 = new Image();
 img3.onload = function () {
 	ctx.drawImage(this, 200, 50, img3.width, img3.height);
 };
-img3.src = "/img/route/hover/zingers-house.png";
+img3.src = "/img/route/zingers-house.png";
+
+var img3Hover = new Image();
+img3Hover.src = "/img/route/hover/zingers-house.png";
+
+//----------------------------------------------
+
 
 var img4 = new Image();
 img4.onload = function () {
@@ -189,7 +204,11 @@ function handleMouseMove(e) {
 	ctx.stroke();
 	if (ctx.isPointInPath(mouseX, mouseY)) {
 		console.log('Hello!!1');
+		ctx.drawImage(img1Hover, 0, 10, 200, 282);
 		return;
+	} else {
+		// ctx.clearRect(0, 0, img1.width, img1.height);
+		ctx.drawImage(img1, 0, 50, img1.width, img1.height);
 	}
 //2
 	ctx.beginPath();
@@ -202,7 +221,12 @@ function handleMouseMove(e) {
 
 	if (ctx.isPointInPath(mouseX, mouseY)) {
 		console.log('Hello!!2');
+		ctx.drawImage(img2Hover, 195, 35, 200, 254);
+		ctx.globalAlpha = 0.1;
 		return;
+	} else {
+		// ctx.clearRect(200, 35, img2.width, img2.height);
+		ctx.drawImage(img2, 200, 50, img2.width, img2.height);
 	}
 //3
 	ctx.beginPath();
@@ -213,10 +237,14 @@ function handleMouseMove(e) {
 	ctx.closePath();
 	ctx.stroke();
 
-if (ctx.isPointInPath(mouseX, mouseY)) {
-	console.log('Hello!!3');
-	return;
-}
+	if (ctx.isPointInPath(mouseX, mouseY)) {
+		console.log('Hello!!3');
+		ctx.drawImage(img3Hover, 200, 50, img3Hover.width, img3Hover.height);
+		return;
+	} else {
+		// ctx.clearRect(200, 50, img3.width, img3.height);
+		ctx.drawImage(img3, 200, 50, img3.width, img3.height);
+	}
 
 //4
 	ctx.beginPath();
@@ -229,7 +257,10 @@ if (ctx.isPointInPath(mouseX, mouseY)) {
 
 if (ctx.isPointInPath(mouseX, mouseY)) {
 	console.log('Hello!!4');
+	ctx.drawImage(img3Hover, 200, 50, img3Hover.width, img3Hover.height);
 	return;
+} else {
+	
 }
 
 //5

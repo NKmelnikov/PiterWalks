@@ -238,6 +238,9 @@ nav.to-book:hover{
 	align-content: center;
 	position: relative;
 }
+.upper-bundle{
+	margin-bottom:-50px;
+}
 .up-part,.mid-part,.bot-part{
 	width:200px;
 	height:250px;
