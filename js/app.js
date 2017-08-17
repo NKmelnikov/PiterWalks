@@ -9,11 +9,16 @@ $('.diagonal-box-1,.diagonal-box-2,.diagonal-box-3,.diagonal-box-4').css('transf
 $('.up-part div,.mid-part div,.bot-part div').each(function () {
 	$(this).on("mouseenter", function() {
 		$(this).css('opacity','1');
+		var className = this.className;
+		$('.route-'+className).show();
 	}).on('mouseleave', function() {
 		$(this).css('opacity','.1');
+		var className = this.className;
+		$('.route-'+className).hide();
 	});
 });
 $('.triangle').click(function () {
 	console.log(this.id);
 	$('#third-section-img-pop-up').show();
 });
+

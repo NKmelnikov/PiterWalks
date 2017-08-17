@@ -311,6 +311,40 @@ nav.to-book:hover{
 	background: url(/img/route/atlant.png);
 	left: 0;
 }
+
+.route-one-mid{
+	position:relative;
+	display: none;
+	top:400px;
+	left:250px;
+	color:white;
+	font-size: 14px;
+
+}
+.img-one-mid{
+	position: absolute;
+	top:0px;
+	width:15px;
+	height:27px;
+}
+.num-one-mid{
+	position: absolute;
+	top:0px;
+	left:18px;
+}
+.text-one-mid{
+	position: absolute;
+	top:25px;
+	width:105px;
+	font-size: 12px;
+}
+
+.one-mid:hover ~ .route-one-mid{
+	color:black;
+	background: red;
+}
+
+
 .two-mid{
 	left: -100px;
 	transform: skew(141deg);
@@ -425,22 +459,61 @@ nav.to-book:hover{
 	left: 0;
 }
 
-
 .one-bot{
 	background: url(/img/route/spas-on-blood.png);
 	left: 200px;
+}
+.one-bot:hover{
+	background: url(/img/route/hover/spas-on-blood.png);
+	left: 200px;
+	top:-134px;
+	width:200px!important;
+	height:384px!important;
 }
 .two-bot{
 	background: url(/img/route/suvorov.png);
 	left: 400px;
 }
+.two-bot:hover{
+	background: url(/img/route/hover/suvorov.png);
+	left: 400px;
+	top:-32px;
+	width:200px!important;
+	height:282px!important;
+}
 .three-bot{
 	background: url(/img/route/theatre.png);
+	left: 600px;
+}
+.three-bot:hover{
+	background: url(/img/route/hover/theatre.png);
 	left: 600px;
 }
 .four-bot{
 	background: url(/img/route/lomonosov.png);
 	left: 800px;
+}
+.four-bot:hover{
+	background: url(/img/route/hover/lomonosov.png);
+	left: 800px;
+	top:-9px;
+	width:200px!important;
+	height:260px!important;
+}
+
+.hover-and-push{
+	position: absolute;
+	display: flex;
+	width: 125px;
+	bottom: 10%;
+	left: 5%;
+	justify-content: space-between;
+}
+
+.text-hover-and-push{
+	width:55px;
+	font-size: 12px;
+	color:white;
 }
 /*fourth section*/
 
