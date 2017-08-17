@@ -261,24 +261,48 @@ nav.to-book:hover{
 	background: url(/img/route/angel.png);
 	left: 0;
 }
+.one-up:hover{
+	background: url(/img/route/hover/angel.png);
+	left: 0;
+}
 .two-up{
 	background: url(/img/route/hermitage.png);
+	left: 200px;
+}
+.two-up:hover{
+	background: url(/img/route/hover/hermitage.png);
 	left: 200px;
 }
 .three-up{
 	background: url(/img/route/pushkin.png);
 	left: 400px;
 }
+.three-up:hover{
+	background: url(/img/route/hover/pushkin.png);
+	left: 400px;
+}
 .four-up{
 	background: url(/img/route/rus-museum.png);
+	left: 600px;
+}
+.four-up:hover{
+	background: url(/img/route/hover/rus-museum.png);
 	left: 600px;
 }
 .five-up{
 	background: url(/img/route/bronze-horseman.png);
 	left: 800px;
 }
+.five-up:hover{
+	background: url(/img/route/hover/bronze-horseman.png);
+	left: 800px;
+}
 .six-up{
 	background: url(/img/route/camel.png);
+	left: 1000px;
+}
+.six-up:hover{
+	background: url(/img/route/hover/camel.png);
 	left: 1000px;
 }
 
