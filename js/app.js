@@ -8,11 +8,11 @@ $('.diagonal-box-1,.diagonal-box-2,.diagonal-box-3,.diagonal-box-4').css('transf
 
 $('.up-part div,.mid-part div,.bot-part div').each(function () {
 	$(this).on("mouseenter", function() {
-		$(this).css('opacity','1');
+		$(this).css({'opacity':'1','overflow-x':'visible'});
 		var className = this.className;
 		$('.route-'+className).show();
 	}).on('mouseleave', function() {
-		$(this).css('opacity','.1');
+		$(this).css({'opacity':'.1','overflow-x':'visible'});
 		var className = this.className;
 		$('.route-'+className).hide();
 	});
