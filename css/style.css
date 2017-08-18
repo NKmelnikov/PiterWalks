@@ -306,44 +306,10 @@ nav.to-book:hover{
 	left: 1000px;
 }
 
-
 .one-mid{
 	background: url(/img/route/atlant.png);
 	left: 0;
 }
-
-.route-one-mid{
-	position:relative;
-	display: none;
-	top:400px;
-	left:250px;
-	color:white;
-	font-size: 14px;
-
-}
-.img-one-mid{
-	position: absolute;
-	top:0px;
-	width:15px;
-	height:27px;
-}
-.num-one-mid{
-	position: absolute;
-	top:0px;
-	left:18px;
-}
-.text-one-mid{
-	position: absolute;
-	top:25px;
-	width:105px;
-	font-size: 12px;
-}
-
-.one-mid:hover ~ .route-one-mid{
-	color:black;
-	background: red;
-}
-
 
 .two-mid{
 	left: -100px;
@@ -515,6 +481,90 @@ nav.to-book:hover{
 	font-size: 12px;
 	color:white;
 }
+/*2up*/
+
+.route-two-up{
+	position:relative;
+	display: none;
+	top:200px;
+	left:50px;
+	color:white;
+	font-size: 14px;
+}
+.img-two-up{
+	position: absolute;
+	width:15px;
+	height:27px;
+}
+.num-two-up{
+	position: absolute;
+	left:18px;
+}
+.text-two-up{
+	position: absolute;
+	top:25px;
+	width:155px;
+	font-size: 12px;
+}
+
+/*1mid*/
+
+.route-one-mid{
+	position:relative;
+	display: none;
+	top:400px;
+	left:250px;
+	color:white;
+	font-size: 14px;
+}
+.img-one-mid{
+	position: absolute;
+	width:15px;
+	height:27px;
+}
+.num-one-mid{
+	position: absolute;
+	left:18px;
+}
+.text-one-mid{
+	position: absolute;
+	top:25px;
+	width:105px;
+	font-size: 12px;
+}
+
+/*---*/
+
+.route-two-mid{
+	position:relative;
+	display: none;
+	top:400px;
+	left:50px;
+	color:white;
+	font-size: 14px;
+}
+.img-two-mid{
+	position: absolute;
+	width:15px;
+	height:27px;
+}
+.num-two-mid{
+	position: absolute;
+	left:18px;
+}
+.text-two-mid{
+	position: absolute;
+	top:25px;
+	width:155px;
+	font-size: 12px;
+}
+
+/*---*/
+
+
+
+
+
 /*fourth section*/
 
 #fourth-section{
