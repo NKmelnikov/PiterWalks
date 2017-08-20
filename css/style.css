@@ -312,7 +312,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:50px;
-	left:50px;
+	left: 220px;
 	color:white;
 	font-size: 14px;
 }
@@ -370,7 +370,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:50px;
-	left:50px;
+	left: 620px;
 	color:white;
 	font-size: 14px;
 }
@@ -399,7 +399,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:50px;
-	left:50px;
+	left: 490px;
 	color:white;
 	font-size: 14px;
 }
@@ -428,7 +428,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:50px;
-	left:50px;
+	left: 1020px;
 	color:white;
 	font-size: 14px;
 }
@@ -444,7 +444,7 @@ nav.to-book:hover{
 .text-five-up{
 	position: absolute;
 	top:25px;
-	width:155px;
+	width: 145px;
 	text-align: left;
 	font-size: 12px;
 }
@@ -455,7 +455,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:50px;
-	left:50px;
+	left: 840px;
 	color:white;
 	font-size: 14px;
 }
@@ -685,7 +685,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:220px;
+	left: 300px;
 	color:white;
 	font-size: 14px;
 }
@@ -714,7 +714,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:220px;
+	left: 620px;
 	color:white;
 	font-size: 14px;
 }
@@ -730,7 +730,7 @@ nav.to-book:hover{
 .text-five-mid{
 	position: absolute;
 	top:25px;
-	width:95px;
+	width: 195px;
 	text-align: left;
 	font-size: 12px;
 }
@@ -743,7 +743,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:220px;
+	left: 480px;
 	color:white;
 	font-size: 14px;
 }
@@ -759,7 +759,7 @@ nav.to-book:hover{
 .text-six-mid{
 	position: absolute;
 	top:25px;
-	width:95px;
+	width: 125px;
 	text-align: left;
 	font-size: 12px;
 }
@@ -772,7 +772,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:220px;
+	left: 820px;
 	color:white;
 	font-size: 14px;
 }
@@ -801,7 +801,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:220px;
+	left: 670px;
 	color:white;
 	font-size: 14px;
 }
@@ -817,7 +817,7 @@ nav.to-book:hover{
 .text-eight-mid{
 	position: absolute;
 	top:25px;
-	width:95px;
+	width: 125px;
 	text-align: left;
 	font-size: 12px;
 }
@@ -830,7 +830,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:220px;
+	left: 1020px;
 	color:white;
 	font-size: 14px;
 }
@@ -859,7 +859,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:220px;
+	left: 860px;
 	color:white;
 	font-size: 14px;
 }
@@ -932,7 +932,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:420px;
+	left: 430px;
 	color:white;
 	font-size: 14px;
 }
@@ -961,7 +961,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:420px;
+	left: 280px;
 	color:white;
 	font-size: 14px;
 }
@@ -990,7 +990,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:420px;
+	left: 820px;
 	color:white;
 	font-size: 14px;
 }
@@ -1019,7 +1019,7 @@ nav.to-book:hover{
 	position:absolute;
 	display: none;
 	top:30px;
-	left:420px;
+	left: 630px;
 	color:white;
 	font-size: 14px;
 }
@@ -1035,7 +1035,7 @@ nav.to-book:hover{
 .text-four-bot{
 	position: absolute;
 	top:25px;
-	width:95px;
+	width: 155px;
 	text-align: left;
 	font-size: 12px;
 }
