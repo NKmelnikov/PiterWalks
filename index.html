@@ -7,6 +7,9 @@
 	<title>Your Website</title>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	// Add the new slick-theme.css if you want the default styling
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
 <body>
@@ -64,22 +67,39 @@
 				<img src="img/route_pointer.png"
 				     alt=""
 				     class="pu-sign-img">
-				<span class="pu-route-number">1.</span>
+				<span class="pu-route-number"></span>
 			</div>
-			<p class="pu-sign-name">Дворцовая площадь</p>
-			<p class="pu-sign-description">Главная площадь Петербурга.<br>
-				Дойти до нее можно по Дворцовой набережной или по Миллионной улице.
-			</p>
+			<p class="pu-sign-name"></p>
+			<p class="pu-sign-description"></p>
 			<div class="pu-next-memorial-button">
 				<span>Следующая точка</span>
 			</div>
 		</div>
 		<div class="pu-right-block">
-			<div class="img-carousel">
 
-			</div>
-			<div class="description">
-
+			<div class="carousel-container">    <!--carousel-container-->
+				<nav class="prev"></nav>
+				<nav class="next"></nav>
+				<div class="carousel">
+					<div class="img-container">
+						<div class="firstImage"></div>
+					</div>
+					<div class="img-container">
+						<div class="secondImage"></div>
+					</div>
+					<div class="img-container">
+						<div class="thirdImage"></div>
+					</div>
+				</div>
+				<div class="overlay">
+					<img src="img/lupa.png"
+					     alt=""
+					     class="lupa">
+				</div>
+			</div>                                    <!--carousel-container-end-->
+			<div class="pu-description">
+				<p class="first-desc-text"></p>
+				<p class="second-desc-text"></p>
 			</div>
 		</div>
 	</aside>
@@ -90,19 +110,19 @@
 				<div id='1' class="one-up"></div>
 			</div>
 			<div class="up-part right-sided-up">
-				<div id='2' class="two-up"></div>
+				<div id='3' class="two-up"></div>
 			</div>
 			<div class="up-part left-sided-up">
-				<div id='3' class="three-up"></div>
+				<div id='10' class="three-up"></div>
 			</div>
 			<div class="up-part right-sided-up">
-				<div id='4' class="four-up"></div>
+				<div id='11' class="four-up"></div>
 			</div>
 			<div class="up-part left-sided-up">
-				<div id='5' class="five-up"></div>
+				<div id='18' class="five-up"></div>
 			</div>
 			<div class="up-part right-sided-up">
-				<div id='6' class="six-up"></div>
+				<div id='20' class="six-up"></div>
 			</div>
 			<!--1up-->
 			<div class="route-one-up">
@@ -173,26 +193,26 @@
 
 		<div class="middle-bundle">
 			<div class="mid-part left-sided-up">
-				<div id='7' class="one-mid"></div>
+				<div id='2' class="one-mid"></div>
 			</div>
 			<div class="mid-part left-sided-down">
-				<div id='8' class="two-mid"></div>
-				<div id='9' class="three-mid"></div>
+				<div id='4' class="two-mid"></div>
+				<div id='5' class="three-mid"></div>
 			</div>
 			<div class="mid-part left-sided-up ">
-				<div id='10' class="four-mid"></div>
-				<div id='11' class="five-mid"></div>
+				<div id='8' class="four-mid"></div>
+				<div id='9' class="five-mid"></div>
 			</div>
 			<div class="mid-part left-sided-down">
 				<div id='12' class="six-mid"></div>
 				<div id='13' class="seven-mid"></div>
 			</div>
 			<div class="mid-part left-sided-up">
-				<div id='14' class="eight-mid"></div>
-				<div id='15' class="nine-mid"></div>
+				<div id='16' class="eight-mid"></div>
+				<div id='17' class="nine-mid"></div>
 			</div>
 			<div class="mid-part left-sided-down">
-				<div id='16' class="ten-mid"></div>
+				<div id='19' class="ten-mid"></div>
 			</div>
 
 
@@ -300,16 +320,16 @@
 
 		<div class="bottom-bundle">
 			<div class="bot-part left-sided-down">
-				<div id='17' class="one-bot"></div>
+				<div id='6' class="one-bot"></div>
 			</div>
 			<div class="bot-part right-sided-down">
-				<div id='18' class="two-bot"></div>
+				<div id='7' class="two-bot"></div>
 			</div>
 			<div class="bot-part left-sided-down">
-				<div id='19' class="three-bot"></div>
+				<div id='14' class="three-bot"></div>
 			</div>
 			<div class="bot-part right-sided-down">
-				<div id='20' class="four-bot"></div>
+				<div id='15' class="four-bot"></div>
 			</div>
 
 			<!--1bot-->
@@ -522,6 +542,8 @@
 <!--  -----------------------------------------------------------------------------------  -->
 
 <script src="js/jquery.3.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.js"></script>
+<script src="js/pop-up.js"></script>
 <script src="js/app.js"></script>
 </body>
 

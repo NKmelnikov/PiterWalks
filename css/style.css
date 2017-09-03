@@ -207,10 +207,8 @@ nav.to-book:hover{
 	height:768px;
 	font-family: Comfortaa;
 	background: #282828;
-
-	/*display: none;*/
+	display: none;
 	z-index: 999;
-	display: flex;
 }
 .exit-cross{
 	position:absolute;
@@ -225,13 +223,12 @@ nav.to-book:hover{
 	cursor: pointer;
 }
 .pu-left-block{
-	border:1px solid white;
 	width:466px;
 	height: 100%;
 }
 .pu-sign-container, .pu-sign-name{
 	font-size: 30px;
-	width:200px;
+	width:350px;
 	color: #fd9a74;
 	margin-left: 70px;
 }
@@ -297,16 +294,69 @@ nav.to-book:hover{
 	right: 0;
 }
 .pu-right-block{
-	border: 1px solid yellow;
 	width:900px;
 	height:100%;
 }
-.img-carousel{
+.carousel-container{
 	width: 100%;
-	height: 70vh;
-	border:1px solid red;
+	height: 500px;
+	position: relative;
+}
+.pu-description{
+	height:268px;
+}
+.carousel{
+	margin: 0 auto;
+}
+.carousel,.img-container>div,.overlay{
+	width: 700px;
+	height: 500px;
+}
+.overlay{
+	background: black;
+	opacity: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top:0;
+	left:100px;
+	transition: .5s ease;
+}
+.overlay:hover{
+	opacity: .7;
+	cursor: pointer;
+}
+.lupa{
+	width:128px;
+	height:117px;
 }
 
+/*-----------*/
+
+.first-desc-text,.second-desc-text{
+	color:white;
+	font-size: 14px;
+	width:700px;
+	margin-left: 100px;
+	margin-top: 50px;
+	text-align: justify;
+}
+.next, .prev {
+	position: absolute;
+	top:40%;
+
+	width:22px;
+	height: 47px!important;
+}
+.prev {
+	background-image: url(/img/prev.png);
+	left:40px;
+}
+.next{
+	background-image: url(/img/next.png);
+	right:20px;
+}
 /*third-section*/
 
 #third-section{
