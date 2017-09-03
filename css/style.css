@@ -209,6 +209,7 @@ nav.to-book:hover{
 	background: #282828;
 	display: none;
 	z-index: 999;
+	border-radius: 25px;
 }
 .exit-cross{
 	position:absolute;
@@ -304,6 +305,10 @@ nav.to-book:hover{
 }
 .pu-description{
 	height:268px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .carousel{
 	margin: 0 auto;
@@ -338,9 +343,8 @@ nav.to-book:hover{
 	color:white;
 	font-size: 14px;
 	width:700px;
-	margin-left: 100px;
-	margin-top: 50px;
 	text-align: justify;
+	line-height:20px;
 }
 .next, .prev {
 	position: absolute;

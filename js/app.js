@@ -44,6 +44,8 @@ $('.pu-next-memorial-button').click(function(){
 
 });
 
+
+
 function updateValues(id){
 	id = id >19 ? 0 : id;
 	$('.pu-route-number').text(puStaff[id].num);
@@ -68,6 +70,9 @@ function updateValues(id){
 
 	$('.first-desc-text').text(puStaff[id].first_long_desc);
 	$('.second-desc-text').text(puStaff[id].second_long_desc);
+
+	console.log($('.second-desc-text').text().length);
+
 }
 
 
