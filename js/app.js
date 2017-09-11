@@ -39,15 +39,33 @@ $('.exit-cross').click(function () {
 
 $('.pu-next-memorial-button').click(function(){
 	var currenId = parseInt($('.pu-route-number').text(),10);
-
 		updateValues(currenId);
-
 });
 
+moment.locale(navigator.language);
 
+$('.date-select').clndr({
+	weekOffset: 1,
+	daysOfTheWeek: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+	showAdjacentMonths: false,
+	events: [
+		{ date: '2017-09-09', title: 'CLNDR GitHub Page Finished', url: 'http://github.com/kylestetz/CLNDR' }
+	],
+	clickEvents: {
+		click: function(target) {
+			console.log(target);
+		},
+		onMonthChange: function(month) {
+			console.log('you just went to ' + month.format('MMMM, YYYY'));
+		}
+	},
+	doneRendering: function() {
+		console.log('this would be a fine place to attach custom event handlers.');
+	}
+});
 
 function updateValues(id){
-	id = id >19 ? 0 : id;
+	id = id > 19 ? 0 : id;
 	$('.pu-route-number').text(puStaff[id].num);
 	$('.pu-sign-name').text(puStaff[id].name);
 	$('.pu-sign-description').text(puStaff[id].shot_desc);
@@ -67,12 +85,9 @@ function updateValues(id){
 		'background-size':'contain',
 		'background-position': 'center'
 	});
-
 	$('.first-desc-text').text(puStaff[id].first_long_desc);
 	$('.second-desc-text').text(puStaff[id].second_long_desc);
-
 	console.log($('.second-desc-text').text().length);
-
 }
 
 

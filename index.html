@@ -8,7 +8,6 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
 	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	// Add the new slick-theme.css if you want the default styling
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 
@@ -485,7 +484,7 @@
 					<img src="img/rus-rub-symbol.png"
 					     alt=""
 					     class="rus-rub-symbol-third">
-					<p class="indi-excursions-text-third">Индивидуальная экскурсия</p>
+					<p class="indi-excursions-text-third">Составная группа</p>
 					<img src="img/single-person.png"
 					     alt=""
 					     class="single-person-img-third">
@@ -539,10 +538,64 @@
 	<p class="copy-rights">©2017 cult of walks</p>
 </section>                                 <!-- end of 05-->
 
+<section id="sixth-section">                <!-- 06-->
+	<div class="calendar-container">
+		<p class="to-book-text">Забронировать</p>
+		<span class="choose-exc-text">1. Выберете экскурсию</span>
+		<div class="exc-select">
+			<select>
+				<option id="first-exc-option" value="">Индивидуальная экскурсия, 1 человек, 5000 р.</option>
+				<option id="second-exc-option" value="">Индивидуальная экскурсия, 2-6 человек, 3500 р. с человека</option>
+				<option id="third-exc-option" value="">Составная группа, до 10 человек, 1000 р. с человека</option>
+			</select>
+		</div>
+		<div class="human-number-and-time-container">
+			<div>
+				<span class="choose-human-text">2. Количество человек</span>
+				<div class="human-select">
+					<select>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<span class="choose-time-text">3. Выберете время</span>
+				<div class="time-select">
+
+					<select>
+						<option value="1">12:00</option>
+						<option value="2">17:00</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<span class="choose-time-text">4. Выберете дату</span>
+		<div class="date-select">
+
+		</div>
+	</div>
+	<div class="info-container">
+
+	</div>
+
+
+</section>                              <!-- end of 06-->
 <!--  -----------------------------------------------------------------------------------  -->
 
 <script src="js/jquery.3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+<script src="js/moment.js"></script>
 <script type="text/javascript" src="slick/slick.js"></script>
+<script type="text/javascript" src="js/clndr.js"></script>
 <script src="js/pop-up.js"></script>
 <script src="js/app.js"></script>
 </body>

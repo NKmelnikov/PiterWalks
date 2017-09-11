@@ -1667,5 +1667,125 @@ div.to-book-third:active{
 	bottom: 5%;
 	right:5%;
 }
+
 /*------------------------------------*/
 
+#sixth-section {
+	position: relative;
+	width: 100%;
+	height:100vh;
+	overflow: visible;
+	font-family: Comfortaa;
+	/*background-color:#282828;*/
+	background-color: #282828;
+	display: flex;
+
+}
+.calendar-container{
+	border-right: 1px dotted white;
+	width:70vw;
+	height:100vh;
+	margin-left: 5%;
+}
+
+.calendar-container span{
+	display: block;
+	color:white;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.calendar-container select:focus{
+	outline: none;
+}
+.to-book-text{
+	font-size: 30px;
+	color: #fd9a74;
+}
+.exc-select,.human-select,.time-select {
+	padding: 0;
+	margin: 0 0 40px 0;
+	border:none;
+	width: 400px;
+	height: 50px;
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: #464646;
+
+}
+.exc-select select:hover,.human-select select:hover,.time-select select:hover {
+	cursor:pointer;
+}
+.exc-select select,.human-select select,.time-select select {
+	color:whitesmoke;
+	padding: 5px 0 5px 15px;
+	width: 100%;
+	font-size: 12px;
+	line-height: 38px;
+	text-align: center;
+	border: none;
+	box-shadow: none;
+	background-color: transparent;
+	background-image: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.exc-select select option{
+
+	background-color: #464646;
+}
+.exc-select select:focus {
+	outline: none;
+}
+
+.human-number-and-time-container{
+	display: flex;
+	width:300px;
+	justify-content: space-between;
+}
+
+.human-select, .time-select{
+	width:100px;
+	text-align: center;
+}
+.date-select{
+	position: relative;
+	width:335px;
+}
+.clndr-table{
+	border-spacing:3px;
+}
+.header-day{
+	font-size: 12px;
+	color: lightgray;
+}
+.day{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	background-color: white;
+	padding:5px;
+	border-radius: 25px;
+}
+.month{
+	color: lightgray;
+}
+
+.clndr-previous-button, .clndr-next-button{
+	position: absolute;
+	width:22px;
+	height:47px;
+	top:25px;
+
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.clndr-next-button{
+	background: url(/img/next.png) no-repeat;
+	right:0;
+}
+.clndr-previous-button{
+	background: url(/img/prev.png) no-repeat;
+	left:-35px;
+}
